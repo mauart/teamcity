@@ -17,7 +17,7 @@ COPY . .
 RUN $(npm bin)/ng build
 
 # Builds a Docker to deliver dist/
-FROM nginx:stable-alpine
+FROM nginx
 
 ## Copy our default nginx config
 COPY ./nginx.conf /etc/nginx/conf.d/default.conf
