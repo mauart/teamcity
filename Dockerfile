@@ -1,5 +1,5 @@
 # Builds Angular App
-FROM node:8-alpine as ngbuild
+FROM node:8 as ngbuild
 
 MAINTAINER Lou Sacco <lsacco@illumina.com>
 
